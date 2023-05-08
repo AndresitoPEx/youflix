@@ -1,0 +1,28 @@
+.footer{
+    background-color: #00000058;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-top: 2px white solid;      
+}
+.footer img{
+    width: 100px;
+    margin: 10px 0;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.footer a:hover{
+    color: #8f7193;
+}
+.footer p{
+    margin: 10px 0;
+}

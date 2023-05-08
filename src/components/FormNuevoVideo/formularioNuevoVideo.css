@@ -1,0 +1,22 @@
+.formularioNuevoVideo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.formularioNuevoVideo form {
+    width: 100%;
+
+    
+    padding: 100px;
+}
+
+.formularioNuevoVideo h1 {
+    font-size: 32px;
+    color: rgb(226, 226, 226);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 32px;
+    
+}

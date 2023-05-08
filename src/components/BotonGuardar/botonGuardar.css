@@ -1,0 +1,14 @@
+.botonGuardar{
+    background-color: darkcyan;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 24px 32px;
+    cursor: pointer;
+    margin: 32px 0;
+    color: white;
+}
+.botonGuardar:hover{
+    background-color: #00a3a3;
+}

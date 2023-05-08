@@ -1,0 +1,22 @@
+.categorias label{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.categorias select{
+    outline: none;
+    width: 100%;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #212121;
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+}
