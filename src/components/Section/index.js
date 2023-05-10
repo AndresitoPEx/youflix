@@ -5,19 +5,19 @@ const Section = (props) => {
 
     //destructuramos
     const { nombre, colorPrimario } = props.datos;
-    const { videos } = props;
+    const { videos, eliminarVideo } = props;
 
 
     const colorFondo = {
         backgroundColor: colorPrimario
     }
 
-    console.log(videos.length);
 
     return <>
         {
             videos.length > 0 ?
                 <section className='section-section'>
+
                     <button className='boton-seccion' style={colorFondo}>
                         {nombre}
                     </button>
@@ -35,6 +35,7 @@ const Section = (props) => {
                     datos={video}
                     key={index}
                     colorPrimario={colorPrimario}
+                    eliminarVideo={eliminarVideo}
                 />)
             }
         </div>
